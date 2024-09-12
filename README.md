@@ -9,7 +9,7 @@
 
 ## **Escopo do Projeto**
 
-Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organizadores criar, promover e gerenciar eventos de forma eficiente e intuitiva. A solução oferece funcionalidades para cadastro de usuários, criação e gerenciamento de eventos, inscrições e pagamentos, além de notificações e feedback dos participantes. Com uma interface moderna e fácil de usar, visando transformar a organização de eventos em uma experiência fluida e sem complicações.
+Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organizadores criar, promover e gerenciar eventos de forma eficiente e intuitiva. A solução oferece funcionalidades para cadastro de usuários, criação e gerenciamento de eventos e inscrições, além de notificações e feedback dos participantes. Com uma interface moderna e fácil de usar, visando transformar a organização de eventos em uma experiência fluida e sem complicações.
 
 ### **Objetivos Gerais**
 - Construir uma plataforma de gerenciamento de eventos que permita a criação, inscrição e avaliação de eventos de maneira eficiente.
@@ -49,7 +49,7 @@ Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organ
     - Implementação das principais funcionalidades: cadastro de eventos, sistema de autenticação JWT, inscrição de participantes.
     - Integração completa entre frontend e backend.
     - Início dos testes de unidade e integração.
-- **Fase 3 (Mês 5 a 6)**: 
+- **Fase 3 (Mês 5)**: 
     - Implementação de funcionalidades avançadas: notificações, sistema de avaliações, favoritos.
     - Testes de carga e otimizações de performance.
     - Lançamento da versão MVP e ajustes pós-lançamento.
@@ -80,8 +80,9 @@ Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organ
 
 ## **Desenvolvimento**
 
+
 **Fluxograma**
-![Diagrama de Fluxos](img/diafluxocer.PNG)
+![Diagrama de Fluxos](img/Cap.PNG)
 
 **Diagrama de Uso**
 ![Diagrama De Uso](img/diauso.PNG)
@@ -93,6 +94,7 @@ Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organ
 
 ## **Cronograma**
 
+![Cronograma](img/cronograma.PNG)
 
 ---
 
@@ -112,4 +114,20 @@ Desenvilver uma plataforma inovadora de gestão de eventos que permite aos organ
 - **Equipe de Marketing**: Divulgará a plataforma e atraíra os usuários iniciais.
 
 ---
+
+### **Prototipagem da Dashboard de Usuários**
+
+
+**Baixa Fidelidade**
+
+![Baixa](img/FlowBaixa.png)
+
+**Média Fidelidade**
+
+![Media](img/FlowMedia.png)
+
+**Alta Fidelidade**
+
+![Alta](img/FlowAlta.png)
+
 
