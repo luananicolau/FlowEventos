@@ -1,0 +1,73 @@
+/* Estilo geral da página */
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+  }
+  
+  /* Botão para voltar à Home */
+  .backButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #668DFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Container do formulário */
+  .formContainer {
+    background: #663399;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Estilo do título */
+  .formContainer h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Estilos dos inputs e select */
+  .input, .select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Botão de cadastro */
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #668DFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .submitButton:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Mensagem de erro ou sucesso */
+  .message {
+    margin-top: 15px;
+    color: green;
+  }
+  

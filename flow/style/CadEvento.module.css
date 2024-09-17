@@ -1,0 +1,72 @@
+/* Estilo geral da página */
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    position: relative; /* Adiciona posição relativa para o botão de voltar */
+}
+
+/* Container do formulário */
+.formContainer {
+    background: #663399;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo do título */
+.formContainer h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilos dos inputs e textarea */
+.input, .textarea, .datetime, .number {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão de cadastrar */
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #668DFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilo do botão de cadastrar (hover) */
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo da mensagem */
+.message {
+    margin-top: 15px;
+    color: red;
+}
+
+/* Botão para voltar à dashboard */
+.backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #668DFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

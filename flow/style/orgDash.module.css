@@ -1,0 +1,100 @@
+/* Estilo geral da página */
+.page {
+    padding: 20px;
+    background-color: #000;
+    height: 100vh;
+  }
+  
+  /* Título principal */
+  .page h1 {
+    font-size: 24px;
+    color: #fff ;
+    margin-bottom: 20px;
+  }
+
+  .page h2{
+    color: #fff;
+  }
+  
+  /* Botões */
+  .page button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .page button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Botão de cadastro de evento */
+  .page button:nth-of-type(1) {
+    background-color: #668DFF;
+    color: #fff;
+  }
+  
+  .page button:nth-of-type(2) {
+    background-color: #668DFF;
+    color: #fff;
+  }
+  
+  /* Botão de logout */
+  .page button:nth-of-type(2) {
+    margin-left: 10px;
+  }
+  
+  /* Tabela de eventos */
+  .page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* Fundo branco da tabela */
+    color: #000; /* Cor do texto da tabela preta */
+  }
+  
+  .page th, .page td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .page th {
+    background-color: #663399;
+    color: #fff;
+  }
+  
+  .page tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .page tr{
+    background-color: fff;
+  }
+  
+  .page tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilo das ações na tabela */
+  .page button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .page button:first-of-type {
+    background-color: #735A8D;
+    color: #fff;
+  }
+  
+  .page button:last-of-type {
+    background-color: #668DFF;
+    color: #fff;
+  }
+  

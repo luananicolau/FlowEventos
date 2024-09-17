@@ -1,0 +1,82 @@
+/* styles/editar-eventos/editarEvento.module.css */
+
+.container {
+  padding: 20px;
+  background-color: #000; /* Cor de fundo preta para destacar o conteúdo */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+}
+
+/* Título da página */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* Cor do texto do título */
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%; /* O formulário ocupa toda a largura disponível */
+  max-width: 400px; /* Largura máxima do formulário */
+  background: #663399;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+/* Estilos dos inputs e textarea */
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textarea {
+  min-height: 100px; /* Altura mínima para o textarea */
+}
+
+/* Botão de atualizar */
+.button {
+  padding: 10px;
+  background-color: #668DFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo da mensagem */
+.message {
+  margin-top: 20px;
+  color: greenyellow;
+  text-align: center; /* Centraliza a mensagem */
+}
+
+/* Botão para voltar à dashboard */
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #668DFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
